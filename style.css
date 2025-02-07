@@ -272,7 +272,8 @@ h1 {
   .main-container {
     max-width: 1200px;
     height: auto;
-    max-height: 100%;
+    padding: 1rem;
+    /* max-height: 100%; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
@@ -307,6 +308,7 @@ h1 {
 
   .section-social {
     padding-block: 2rem;
+    height: 100%;
   }
 
   h1 {
