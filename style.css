@@ -267,10 +267,12 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: auto;
   }
   .main-container {
     max-width: 1200px;
     height: auto;
+    max-height: 100%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
